@@ -22,7 +22,7 @@
   end
 end
 
-'5.0.0.beta3'.tap do |version|
+'5.0.0'.tap do |version|
   appraise "rails.#{version}.activerecord" do
     gem 'activerecord', "~> #{version}"
     gem 'activesupport', "~> #{version}"
